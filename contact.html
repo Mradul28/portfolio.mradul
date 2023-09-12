@@ -1,48 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mradul Jain - Web Developer</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-    <div class="sidebar">
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="~/intro.html">Intro</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact me</a></li>
-            </ul>
-        </nav>
- </div>
- <div class="main">
-   <div class="contactform">
-    <h1>Contact me for any Queries</h1>
-    <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email & Phone NO. with anyone else.</div>
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Phone Number</label>
-          <input type="Phone Number" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Enquiry</label>
-          <input type="enquiry" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="buttons"></div>
-        <button type="submit" class="btn btn-sm">Submit</button>
-      </form>
-   </div>
-    </div>
- </div>
 
-</div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mradul Jain - Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <button id="toggleSidebar" class="toggle-button open-toggle">&#8801;</button>
+
+  <div class="container">
+    <div class="sidebar">
+      <button id="closeSidebar" class="toggle-button">X</button>
+
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/intro.html">Intro</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/contact.html">Contact me</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main">
+      <div class="contactform">
+        <h1>Contact me for any Queries</h1>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email & Phone NO. with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+            <input type="Phone Number" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Enquiry</label>
+            <input type="enquiry" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="buttons"></div>
+          <button type="submit" class="btn btn-sm">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <script src="/index.js"></script>
 </body>
+
 </html>
